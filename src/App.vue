@@ -5,10 +5,10 @@
   <router-view/>
 </template>
 <script>
-export default {
-  mounted() {
+import {API} from "@/API/API";
 
-  }
+export default {
+  mixins: [API]
 }
 </script>
 <style>
